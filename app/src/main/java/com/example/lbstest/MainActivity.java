@@ -111,11 +111,6 @@ public class MainActivity extends AppCompatActivity {
                     for (int result : grantResults) {
                         if (result != PackageManager.PERMISSION_DENIED) {
                             Toast.makeText(this, "必须同意所有权限才能使用本程序呀！", Toast.LENGTH_SHORT).show();
-
-
-
-
-
                             finish();
                             return;
                         }
