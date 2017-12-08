@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     requestLocation();
                 } else {
-                    Toast.makeText(this, "发生未知错误", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "发生未知错误123", Toast.LENGTH_SHORT).show();
                     finish();
                 }
                 break;
